@@ -1,4 +1,4 @@
-import Phaser from 'phaser';
+import * as Phaser from 'phaser';
 import { EventBus } from '../../lib/eventBus';
 
 export class Player extends Phaser.Physics.Arcade.Sprite {

@@ -1,4 +1,4 @@
-import Phaser from 'phaser';
+import * as Phaser from 'phaser';
 
 export class Adelia extends Phaser.Physics.Arcade.Sprite {
     target: Phaser.GameObjects.Sprite;

@@ -2,7 +2,7 @@ import { BootScene } from './scenes/BootScene';
 import { PastScene } from './scenes/PastScene';
 import { PresentScene } from './scenes/PresentScene';
 import { FutureScene } from './scenes/FutureScene';
-import Phaser from 'phaser';
+import * as Phaser from 'phaser';
 
 const config: Phaser.Types.Core.GameConfig = {
     type: Phaser.AUTO,
